@@ -10,6 +10,8 @@ h1 { font-family: 'Times New Roman', Times, serif; font-size: 60px; }
 
 .imagesfilms { height: 165px; width: 250px; }
 
+.imagesfilms:hover { height: 250px; width: 350px; z-index: 10; }
+
 .cn { width: 70px; }
 
 .cp { width: 70px; }
