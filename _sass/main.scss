@@ -1,0 +1,46 @@
+$bgcolor: rgb(22, 22, 22);
+$maincolor: white;
+$btncolor: brown;
+body {
+        background: $bgcolor;
+        color: $maincolor;
+
+        --bg-color: #{$bgcolor};
+}
+.global {
+        height: 900px;
+        background-position: center center;
+        min-width: 1000px;
+        background-size: cover;
+}
+.col-4 {
+        text-align: left;
+        font-size: larger;
+        min-width: 250px;
+        padding-top: 15%;
+}
+h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+}
+.row1 {
+    height: 800px;
+}
+.imagesfilms {
+    height: 165px;
+    width: 250px;
+//     &:hover {
+//             height: 250px;
+//             width: 350px;
+//             z-index: 10;
+//     }
+}
+.cn {
+  width: 70px;
+}
+.cp {
+  width: 70px;
+}
+.netflixlog {
+    margin-right: 10px;
+}

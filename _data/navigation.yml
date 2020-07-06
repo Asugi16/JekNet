@@ -1,0 +1,10 @@
+- name: Accueil
+  link: /
+- name: Series
+  link: /series.html
+- name: Films
+  link: /films.html
+- name: Nouveautés
+  link: /nouveautes.html
+- name: Ma Liste
+  link: /maliste.html

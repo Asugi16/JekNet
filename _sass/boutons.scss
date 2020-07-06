@@ -1,0 +1,17 @@
+.btn {
+    font-size: 25px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}.btn1 { 
+    color: black;  
+    background-color: $maincolor; 
+}
+.btn2 {
+    background-color: grey;
+    opacity: 60%;
+    color: $maincolor;
+}
+.btn-icon {
+    height: 30px;
+    width: 35px;
+    margin-right: 10px;
+}

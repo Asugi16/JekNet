@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <img class="netflixlog" src="/assets/images/Netflix.png" width="70" height="60" alt="Site logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            {% for item in site.data.navigation %}
+            <a class="navbar-brand" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+          {% endfor %}
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <img src="assets/images/loupe.png" width="40" height="40" alt="Site logo">
+            </li>
+            <li class="nav-item">
+                <img src="assets/images/logocadeau.png" width="40" height="40" alt="Site logo">
+            </li>
+            <li class="nav-item">
+                <img src="assets/images/logocloche.png" width="40" height="40" alt="Site logo">
+            </li>
+            <li class="nav-item">
+                <img src="assets/images/profile.png" width="40" height="40" alt="Site logo">
+            </li>
+        </ul>
+    </div>
+</nav>

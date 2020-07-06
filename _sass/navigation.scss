@@ -1,0 +1,13 @@
+.bg-dark {
+    background: transparent !important;
+    .nav-link {
+        color: $maincolor;
+    }
+        &.scrolled {
+        background:black !important;
+        opacity: 90%;
+        .nav-link {
+            color: $maincolor;
+        }
+}
+}
