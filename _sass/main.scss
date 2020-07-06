@@ -29,11 +29,11 @@ h1 {
 .imagesfilms {
     height: 165px;
     width: 250px;
-//     &:hover {
-//             height: 250px;
-//             width: 350px;
-//             z-index: 10;
-//     }
+     &:hover
+             height: 250px;
+             width: 350px;
+            z-index: 10;
+     }
 }
 .cn {
   width: 70px;
