@@ -1,10 +1,10 @@
 - name: Accueil
-  link: /jekyll/
+  link: /JekNet/
 - name: Series
-  link: /jekyll/series.html
+  link: /JekNet/series.html
 - name: Films
-  link: /jekyll/films.html
+  link: /JekNet/films.html
 - name: Nouveautés
-  link: /jekyll/nouveautes.html
+  link: /JekNet/nouveautes.html
 - name: Ma Liste
-  link: /jekyll/maliste.html
+  link: /JekNet/maliste.html
